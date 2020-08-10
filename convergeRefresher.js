@@ -8,7 +8,6 @@ window.addEventListener('load', function() {
         
         if(x.innerHTML == "<i>Connected</i>") {
             clearInterval(refresher);
-            console.log('stop');
         }
             
 
