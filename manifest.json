@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Converge Auto-Refresher",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://click2talk.convergeict.com/*", "https://click2talk.convergeict.com/*"
+      ],
+      "js": ["convergeRefresher.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
+
